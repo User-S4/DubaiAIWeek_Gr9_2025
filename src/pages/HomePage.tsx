@@ -85,7 +85,7 @@ const HomePage = () => {
                 to="/about"
                 className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-medium rounded-full transition-colors"
               >
-                About EcoVoices
+                About TheFifthElement
               </Link>
             </div>
           </div>

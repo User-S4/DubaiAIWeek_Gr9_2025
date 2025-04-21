@@ -29,7 +29,7 @@ const AboutPage = () => {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-white mb-6">
-              About EcoVoices
+              About TheFifthElement
             </h1>
             
             <p className="text-lg text-white/80 mb-8">
@@ -49,7 +49,7 @@ const AboutPage = () => {
             
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p>
-                EcoVoices was created with a singular purpose: to amplify the voices of those working to create a more sustainable and equitable world. We believe that informed conversations are a catalyst for meaningful change, and our mission is to provide a platform for the exchange of ideas, knowledge, and solutions that address our planet's most pressing environmental challenges.
+                TheFifthElement was created with a singular purpose: to amplify the voices of those working to create a more sustainable and equitable world. We believe that informed conversations are a catalyst for meaningful change, and our mission is to provide a platform for the exchange of ideas, knowledge, and solutions that address our planet's most pressing environmental challenges.
               </p>
               
               <p>
@@ -76,29 +76,29 @@ const AboutPage = () => {
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden text-center">
               <div className="pt-8 px-8">
                 <img
-                  src="https://images.pexels.com/photos/2787341/pexels-photo-2787341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Elena Rodriguez"
+                  src="/profile-placeholder.png"
+                  alt="Shreya"
                   className="w-32 h-32 object-cover rounded-full mx-auto shadow-md"
                 />
                 
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-4 mb-1">
-                  Elena Rodriguez
+                  Shreya
                 </h3>
                 
                 <p className="text-primary-600 dark:text-primary-400 mb-2">
-                  Host & Executive Producer
+                  Producer and Sound Engineer
                 </p>
                 
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                  Environmental journalist with over a decade of experience covering climate solutions and sustainability innovations.
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 min-h-[120px] flex items-center justify-center">
+                  Shreya is responsible for the technical production of our episodes, ensuring high-quality sound and seamless editing. Her expertise in audio engineering brings clarity and professionalism to every show.
                 </p>
               </div>
               
               <div className="flex justify-center space-x-4 py-4 bg-gray-50 dark:bg-gray-700">
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Twitter size={18} />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="mailto:contact@thefifthelement.org" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Mail size={18} />
                 </a>
               </div>
@@ -108,29 +108,29 @@ const AboutPage = () => {
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden text-center">
               <div className="pt-8 px-8">
                 <img
-                  src="https://images.pexels.com/photos/8434791/pexels-photo-8434791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Marcus Chen"
+                  src="/profile-placeholder.png"
+                  alt="Preetika S."
                   className="w-32 h-32 object-cover rounded-full mx-auto shadow-md"
                 />
                 
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-4 mb-1">
-                  Marcus Chen
+                  Preetika S.
                 </h3>
                 
                 <p className="text-primary-600 dark:text-primary-400 mb-2">
-                  Producer & Sound Engineer
+                  Executive Producer & Research Director
                 </p>
                 
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                  Audio production specialist with a background in environmental science, bringing technical expertise and scientific rigor to our episodes.
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 min-h-[120px] flex items-center justify-center">
+                  Preetika S. oversees the creative direction and research for TheFifthElement, ensuring every episode is insightful, well-researched, and impactful. She bridges the gap between concept and execution.
                 </p>
               </div>
               
               <div className="flex justify-center space-x-4 py-4 bg-gray-50 dark:bg-gray-700">
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Instagram size={18} />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="mailto:contact@thefifthelement.org" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Mail size={18} />
                 </a>
               </div>
@@ -140,29 +140,29 @@ const AboutPage = () => {
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden text-center">
               <div className="pt-8 px-8">
                 <img
-                  src="https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Aisha Johnson"
+                  src="/profile-placeholder.png"
+                  alt="Evelyn"
                   className="w-32 h-32 object-cover rounded-full mx-auto shadow-md"
                 />
                 
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-4 mb-1">
-                  Aisha Johnson
+                  Evelyn
                 </h3>
                 
                 <p className="text-primary-600 dark:text-primary-400 mb-2">
-                  Research Director
+                  Chief Host
                 </p>
                 
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                  Environmental policy expert who ensures our content is well-researched, accurate, and provides context to complex sustainability issues.
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 min-h-[120px] flex items-center justify-center">
+                  Evelyn leads our conversations and interviews, bringing warmth, curiosity, and clarity to every episode. As Chief Host, she connects our audience with inspiring stories and expert voices.
                 </p>
               </div>
               
               <div className="flex justify-center space-x-4 py-4 bg-gray-50 dark:bg-gray-700">
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Twitter size={18} />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+                <a href="mailto:contact@thefifthelement.org" className="text-gray-500 hover:text-primary-500 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
                   <Mail size={18} />
                 </a>
               </div>
@@ -242,7 +242,7 @@ const AboutPage = () => {
                 </p>
                 <a href="#" className="flex items-center text-primary-300 hover:text-primary-200 transition-colors">
                   <Mail className="mr-2" size={18} />
-                  contact@ecovoices.org
+                  contact@thefifthelement.org
                 </a>
               </div>
               

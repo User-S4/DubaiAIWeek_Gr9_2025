@@ -81,19 +81,19 @@ const EpisodesPage = () => {
             
             <div className="relative">
               <select
-                className="w-full px-4 py-3 pl-10 appearance-none bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400"
+                className="w-full px-4 py-3 pl-10 pr-10 appearance-none bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 text-base font-medium text-gray-900 dark:text-white transition-colors cursor-pointer"
                 value={seriesFilter}
                 onChange={(e) => handleSeriesFilterChange(e.target.value)}
               >
                 <option value="">All Series</option>
                 {allSeries.map((series) => (
-                  <option key={series} value={series}>
+                  <option key={series} value={series} className="text-base">
                     {series}
                   </option>
                 ))}
               </select>
-              <Filter className="absolute left-3 top-3.5 text-gray-400" size={18} />
-              <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+              <Filter className="absolute left-3 top-3.5 text-gray-400 pointer-events-none" size={18} />
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none">
                 <svg className="w-5 h-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>

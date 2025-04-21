@@ -168,7 +168,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ episode, isPlaying }) => {
             
             <div className="text-center">
               <h2 className="text-xl font-bold text-white mb-1">{episode.title}</h2>
-              <p className="text-gray-300 text-sm">EcoVoices Podcast</p>
+              <p className="text-gray-300 text-sm">TheFifthElement Podcast</p>
             </div>
             
             <div className="w-full space-y-2">

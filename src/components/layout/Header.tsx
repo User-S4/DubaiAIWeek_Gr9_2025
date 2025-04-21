@@ -34,7 +34,7 @@ const Header = () => {
             className="flex items-center space-x-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
           >
             <Leaf className="h-8 w-8" />
-            <span className="text-xl font-serif font-bold">EcoVoices</span>
+            <span className="text-xl font-serif font-bold">TheFifthElement</span>
           </Link>
 
           {/* Desktop Navigation */}
