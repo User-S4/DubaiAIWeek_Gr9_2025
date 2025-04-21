@@ -128,7 +128,14 @@ const HomePage = () => {
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <EpisodeCard episode={latestEpisodes[0]} featured={true} />
+            {(() => {
+              const featured = episodes.find(e => e.title === 'The Green Future; Sun Tech');
+              return featured ? (
+                <EpisodeCard episode={featured} featured={true} />
+              ) : (
+                <div className="text-center text-gray-500 dark:text-gray-400 py-8">Featured episode not found.</div>
+              );
+            })()}
           </div>
         </div>
       </section>

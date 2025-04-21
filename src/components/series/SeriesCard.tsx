@@ -7,10 +7,10 @@ interface SeriesCardProps {
 }
 
 const seriesImages: Record<string, string> = {
-  'Clean Energy Solutions': 'https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  'Blue Planet Initiatives': 'https://images.pexels.com/photos/1656579/pexels-photo-1656579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  'Green Infrastructure': 'https://images.pexels.com/photos/1198576/pexels-photo-1198576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  'Sustainable Food Systems': 'https://images.pexels.com/photos/2508603/pexels-photo-2508603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  'Clean Energy Solutions': '/ep1.jpg',
+  'Blue Planet Initiatives': '/ep3.jpeg',
+  'Green Infrastructure': '/ep2.jpg',
+  'Sustainable Food Systems': '/ep4.jpeg',
   'Zero Waste Future': 'https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   'Social Sustainability': 'https://images.pexels.com/photos/2990650/pexels-photo-2990650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   'Biodiversity Protection': 'https://images.pexels.com/photos/635352/pexels-photo-635352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
